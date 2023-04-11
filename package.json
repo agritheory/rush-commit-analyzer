@@ -1,0 +1,20 @@
+{
+	"name": "rush-commit-analyzer",
+	"version": "0.1.0",
+	"description": "Conventional Commits for Rush via plugin",
+	"main": "index.js",
+	"scripts": {
+		"test": "test"
+	},
+	"author": "tyler@agritheory.com",
+	"license": "MIT",
+	"dependencies": {
+		"@rushstack/node-core-library": "^3.55.2",
+		"@rushstack/rush-sdk": "^5.97.0",
+		"@semantic-release/commit-analyzer": "^9.0.2",
+		"@types/node": "^18.15.11",
+		"chalk": "^5.2.0",
+		"cz-customizable": "^7.0.0",
+		"typescript": "^5.0.4"
+	}
+}

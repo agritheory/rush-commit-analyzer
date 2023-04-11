@@ -1,0 +1,12 @@
+{
+	"$schema": "https://developer.microsoft.com/json-schemas/rush/v5/command-line.schema.json",
+	"commands": [
+		{
+			"name": "check-readme",
+			"commandKind": "bulk",
+			"summary": "Validates a project's README.md to make sure it conforms to company policy",
+			"shellCommand": "node <packageFolder>/lib/start.js",
+			"safeForSimultaneousRushProcesses": true
+		}
+	]
+}

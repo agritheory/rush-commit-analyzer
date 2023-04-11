@@ -1,0 +1,10 @@
+{
+	"$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush-plugin-manifest.schema.json",
+	"plugins": [
+		{
+			"pluginName": "commit-analyzer",
+			"description": "Adds a custom command \"rush commit-analyzer\" that generates a version bump based on semantic commits",
+			"entryPoint": "RushExamplePlugin.js"
+		}
+	]
+}
